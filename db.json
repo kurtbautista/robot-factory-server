@@ -1,0 +1,124 @@
+{
+  "robots": [
+    {
+      "id": 1,
+      "name": "Robot 1",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 1,
+        "Colour": "blue"
+      },
+      "statuses": ["on fire", "rusty", "loose screws", "paint scratched"]
+    },
+    {
+      "id": 2,
+      "name": "Robot 2",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 1,
+        "Colour": "blue"
+      },
+      "statuses": ["on fire", "rusty", "loose screws", "paint scratched"]
+    },
+    {
+      "id": 3,
+      "name": "Robot 3",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 6,
+        "Colour": "red"
+      },
+      "statuses": ["on fire"]
+    },
+    {
+      "id": 4,
+      "name": "Robot 4",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 7,
+        "Colour": "green"
+      },
+      "statuses": ["rusty", "paint scratched"]
+    },
+    {
+      "id": 5,
+      "name": "Robot 5",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 1,
+        "Colour": "grey"
+      },
+      "statuses": ["rusty", "loose screws", "paint scratched"]
+    },
+    {
+      "id": 6,
+      "name": "Robot 6",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 7,
+        "Colour": "green"
+      },
+      "statuses": ["on fire", "paint scratched"]
+    },
+    {
+      "id": 7,
+      "name": "Robot 7",
+      "configuration": {
+        "hasSentience": true,
+        "hasWheels": false,
+        "hasTracks": false,
+        "numberOfRotors": 1,
+        "Colour": "blue"
+      },
+      "statuses": ["rusty", "loose screws", "paint scratched"]
+    },
+    {
+      "id": 8,
+      "name": "Robot 8",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": true,
+        "hasTracks": false,
+        "numberOfRotors": 1,
+        "Colour": "blue"
+      },
+      "statuses": ["on fire", "rusty", "loose screws", "paint scratched"]
+    },
+    {
+      "id": 9,
+      "name": "Robot 9",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 5,
+        "Colour": "pink"
+      },
+      "statuses": ["on fire"]
+    },
+    {
+      "id": 10,
+      "name": "Robot 10",
+      "configuration": {
+        "hasSentience": false,
+        "hasWheels": false,
+        "hasTracks": true,
+        "numberOfRotors": 1,
+        "Colour": "blue"
+      },
+      "statuses": ["on fire", "rusty", "loose screws", "paint scratched"]
+    }
+  ]
+}
