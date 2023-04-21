@@ -60,8 +60,12 @@ server.put("/robots/shipments/create", (req, res) => {
   console.log(req.body, req.params);
   const db = router.db;
 
-  remove(db, req.body, "shipments");
-  res.sendStatus(200);
+  const data = remove(db, req.body, "shipments");
+  res.status(200).jsonp({
+    code: 200,
+    message: "Success",
+    data,
+  });
 });
 
 server.use(router);
